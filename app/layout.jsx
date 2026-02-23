@@ -12,7 +12,7 @@ export const metadata = {
   openGraph: {
     title: 'Watch Movies Online Free | Stream TV Series HD - 123Movies',
     description: 'Find where to watch movies & TV series online for free or on Netflix, Disney+, Prime Video. Get streaming guides, actor profiles, and genre recommendations.',
-    url: 'https://123movies123.vercel.app',
+    url: 'https://123movies-hub.netlify.app',
     siteName: '123Movies',
     images: [
       {
@@ -49,7 +49,7 @@ export default async function RootLayout({ children }) {
       <head>
         <meta name="google-site-verification" content="ZO1C4aC3xNwvKJUNPy3C4iC6NScHAiooamZqPSuA2sE" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://123movies123.vercel.app" />
+        <link rel="canonical" href="https://123movies-hub.netlify.app" />
         
         {/* Structured Data untuk SEO */}
         <script
@@ -59,10 +59,10 @@ export default async function RootLayout({ children }) {
               "@context": "https://schema.org",
               "@type": "WebSite",
               "name": "123Movies",
-              "url": "https://123movies123.vercel.app",
+              "url": "https://123movies-hub.netlify.app",
               "potentialAction": {
                 "@type": "SearchAction",
-                "target": "https://123movies123.vercel.app/search?q={search_term_string}",
+                "target": "https://123movies-hub.netlify.app/search?q={search_term_string}",
                 "query-input": "required name=search_term_string"
               },
               "description": "Find where to watch movies & TV series online for free or on Netflix, Disney+, Prime Video.",
@@ -77,7 +77,7 @@ export default async function RootLayout({ children }) {
               "@context": "https://schema.org",
               "@type": "Organization",
               "name": "123Movies",
-              "url": "https://123movies123.vercel.app",
+              "url": "https://123movies-hub.netlify.app",
               "logo": "https://live.staticflickr.com/65535/54812286746_f853554453_b.jpg",
               "description": "Streaming guide and movie database",
               "sameAs": [
@@ -99,7 +99,7 @@ export default async function RootLayout({ children }) {
               <div className="max-w-7xl mx-auto px-4 flex justify-center">
                 <AdBanner 
                   adId="728x90_header"
-                  scriptKey="e160e335e96dc99e151b6a178f355a57"
+                  scriptKey="2ead9efd72b0a037d06959dc89acf0b8"
                   height={90} 
                   width={728}
                   className="rounded-lg overflow-hidden shadow-lg"
@@ -112,7 +112,7 @@ export default async function RootLayout({ children }) {
             </main>
             
             <footer className="w-full max-w-7xl mx-auto px-4 py-8">
-              <div id="container-71b765f9f86e0b42fb5040978bef3bc2"></div>
+              <div id="container-248443a1e7316511f1459e7f1ee1e032"></div>
               <Footer />
             </footer>
           </div>

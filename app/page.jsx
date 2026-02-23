@@ -158,24 +158,24 @@ export default async function HomePage() {
     "@graph": [
       {
         "@type": "WebSite",
-        "@id": "https://123movies123.vercel.app/#website",
-        "url": "https://123movies123.vercel.app/",
+        "@id": "https://123movies-hub.netlify.app/#website",
+        "url": "https://123movies-hub.netlify.app/",
         "name": "123Movies",
         "description": "Discover trending movies and TV series to stream today across Netflix, Disney+, Prime Video, Hulu, HBO Max and other streaming platforms",
         "potentialAction": [{
           "@type": "SearchAction",
-          "target": "https://123movies123.vercel.app/search?q={search_term_string}",
+          "target": "https://123movies-hub.netlify.app/search?q={search_term_string}",
           "query-input": "required name=search_term_string"
         }],
         "inLanguage": "en-US"
       },
       {
         "@type": "WebPage",
-        "@id": "https://123movies123.vercel.app/#webpage",
-        "url": "https://123movies123.vercel.app/",
+        "@id": "https://123movies-hub.netlify.app/#webpage",
+        "url": "https://123movies-hub.netlify.app/",
         "name": "123Movies | Trending Movies & TV Shows to Stream Today",
         "description": "Watch trending movies and TV series for free. Discover what's popular today across Netflix, Disney+, Prime Video. Daily updated trending content.",
-        "isPartOf": { "@id": "https://123movies123.vercel.app/#website" },
+        "isPartOf": { "@id": "https://123movies-hub.netlify.app/#website" },
         "about": "Movie and TV show streaming guide",
         "primaryImageOfPage": {
           "@type": "ImageObject",
@@ -185,17 +185,17 @@ export default async function HomePage() {
         },
         "datePublished": "2024-01-01",
         "dateModified": new Date().toISOString().split('T')[0],
-        "breadcrumb": { "@id": "https://123movies123.vercel.app/#breadcrumb" }
+        "breadcrumb": { "@id": "https://123movies-hub.netlify.app/#breadcrumb" }
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://123movies123.vercel.app/#breadcrumb",
+        "@id": "https://123movies-hub.netlify.app/#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://123movies123.vercel.app/"
+            "item": "https://123movies-hub.netlify.app/"
           }
         ]
       },
@@ -505,7 +505,7 @@ export const metadata = {
   openGraph: {
     title: '123Movies | Trending Movies & TV Shows to Stream Today',
     description: 'Discover what\'s trending today across all streaming platforms. Daily updated with the hottest movies and TV series available to watch online.',
-    url: 'https://123movies123.vercel.app/',
+    url: 'https://123movies-hub.netlify.app/',
     siteName: '123Movies',
     images: [
       {
@@ -527,7 +527,7 @@ export const metadata = {
     images: ['https://live.staticflickr.com/65535/54812286746_f853554453_b.jpg'],
   },
   alternates: {
-    canonical: 'https://123movies123.vercel.app/',
+    canonical: 'https://123movies-hub.netlify.app/',
   },
 };
 
